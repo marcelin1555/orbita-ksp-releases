@@ -3,20 +3,20 @@
   "files": {
     "setup": {
       "name": "Orbita-KSP-Setup-0.7.1.exe",
-      "bytes": 101061858,
-      "sha256": "80ca298f5daffa3215facd73a8723a0d462a80782cc31907780e88ee565d7111",
+      "bytes": 101062353,
+      "sha256": "79bd669e793dec7cb104143272e8dc3a43c26999d3d3651f6675f81080538af7",
       "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.7.1/Orbita-KSP-Setup-0.7.1.exe"
     },
     "portable": {
       "name": "Orbita-KSP-Launcher-0.7.1.exe",
-      "bytes": 100838208,
-      "sha256": "2ca0e1f0fe7b878a4823ffcca9729fb4903a15b547ef8dd31a7ee6f9e7389bb0",
+      "bytes": 100838712,
+      "sha256": "02cc2364422d3773f4bb601f193fb0e781de7afa870dfe4ab3e9b4bccc70ea7d",
       "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.7.1/Orbita-KSP-Launcher-0.7.1.exe"
     },
     "update": {
       "name": "Orbita-KSP-Update-0.7.1.zip",
-      "bytes": 101064389,
-      "sha256": "db3d4f4f6484d815c82ab316aca154e704ae25c46d6ff1d9b63034d7944b3c1f",
+      "bytes": 101064908,
+      "sha256": "f0b2225d8c6b31d739daaf43a538f13ba1d8aaebcb005320985b193a4c7a1d0a",
       "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.7.1/Orbita-KSP-Update-0.7.1.zip"
     }
   }
