@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="Órbita: organize seus modpacks de Kerbal Space Program, instale mods com CKAN e preserve suas missões. Download para Windows x64."
+    />
+    <meta property="og:title" content="Órbita — Seu universo de modpacks" />
+    <meta
+      property="og:description"
+      content="Um lugar para cada maneira de explorar o Kerbal Space Program. Baixe o launcher para Windows."
+    />
+    <meta property="og:type" content="website" />
+    <title>Órbita — Seu universo de modpacks</title>
+    <link rel="icon" href="/assets/icon.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#principal">Pular para o conteúdo</a>
+    <header>
+      <a class="brand" href="#" aria-label="Órbita, início"
+        ><svg viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="10" />
+          <ellipse
+            cx="20"
+            cy="20"
+            rx="18"
+            ry="7"
+            transform="rotate(-25 20 20)"
+          /></svg
+        >Órbita</a
+      >
+      <nav aria-label="Navegação principal">
+        <a href="#recursos">O aplicativo</a
+        ><a href="#primeiros-passos">Como usar</a><a href="#duvidas">Dúvidas</a>
+      </nav>
+      <a class="nav-download" href="#downloads"
+        >Baixar para Windows <span aria-hidden="true">↓</span></a
+      >
+    </header>
+    <main id="principal">
+      <section class="hero" aria-labelledby="titulo">
+        <div class="hero-copy">
+          <h1>
+            Seu universo.<br />Seus modpacks.<br /><em>Sua próxima órbita.</em>
+          </h1>
+          <p>
+            De um KSP limpo à sua combinação favorita de mods. Organize
+            instalações, compartilhe packs e preserve suas missões em um só
+            lugar.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button primary"
+              data-download="setup"
+              href="https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.7.1/Orbita-KSP-Setup-0.7.1.exe"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4" /></svg
+              >Baixar Órbita</a
+            ><a class="text-link" href="#aplicativo"
+              >Conhecer o aplicativo <span aria-hidden="true">↘</span></a
+            >
+          </div>
+          <p class="platform">
+            Windows x64 <span>·</span> Versão <span data-version>0.7.1</span>
+            <span>·</span> Sem conta para usar
+          </p>
+        </div>
+        <aside class="flight-note" aria-label="Sobre o Órbita">
+          <svg class="orbit-art" viewBox="0 0 360 360" aria-hidden="true">
+            <circle cx="180" cy="180" r="75" />
+            <ellipse
+              cx="180"
+              cy="180"
+              rx="161"
+              ry="53"
+              transform="rotate(-35 180 180)"
+            />
+            <ellipse
+              cx="180"
+              cy="180"
+              rx="148"
+              ry="95"
+              transform="rotate(-35 180 180)"
+            />
+            <circle class="moon" cx="307" cy="98" r="7" />
+            <path d="M180 93v-18m0 210v-18M93 180H75m210 0h-18" />
+          </svg>
+          <p>Mais tempo explorando.<br />Menos tempo organizando pastas.</p>
+          <small>Launcher independente para<br />Kerbal Space Program</small>
+        </aside>
+      </section>
+      <figure class="app-shot" id="aplicativo">
+        <div class="window-bar">
+          <span class="window-dots" aria-hidden="true"
+            ><i></i><i></i><i></i></span
+          ><span>Órbita / Biblioteca</span><span>Windows</span>
+        </div>
+        <img
+          src="/assets/preview.png"
+          width="1320"
+          height="870"
+          alt="Biblioteca do Órbita com três instâncias de exemplo e ações para jogar e gerenciar mods"
+          fetchpriority="high"
+        />
+        <figcaption>
+          Uma biblioteca para cada jeito de jogar. Instâncias de demonstração.
+        </figcaption>
+      </figure>
+      <section class="features" id="recursos" aria-labelledby="recursos-titulo">
+        <div class="section-intro">
+          <h2 id="recursos-titulo">
+            Prepare a missão.<br />O resto é com você.
+          </h2>
+          <p>
+            Controle o que muda no seu jogo, do primeiro mod ao próximo pack.
+          </p>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3>Um espaço para cada pack</h3>
+            <p>
+              Use sua instalação da Steam ou Epic Games, crie uma instância
+              limpa ou mantenha outra combinação de mods em uma pasta isolada.
+            </p>
+          </article>
+          <article>
+            <h3>Importe sem duplicar o jogo</h3>
+            <p>
+              Compare o manifesto e escolha: instalar na instância atual ou
+              criar outra isolada. O CKAN resolve dependências e versões.
+            </p>
+          </article>
+          <article>
+            <h3>Suas missões merecem backup</h3>
+            <p>
+              Guarde saves e configurações com verificação de integridade. Ao
+              restaurar, o Órbita preserva o estado anterior em uma cópia de
+              segurança.
+            </p>
+          </article>
+          <article>
+            <h3>Saiba o que aconteceu</h3>
+            <p>
+              Acompanhe o progresso e o histórico das operações. Consulte erros
+              do jogo e retome importações pendentes com uma nova revisão.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="download-section"
+        id="downloads"
+        aria-labelledby="download-titulo"
+      >
+        <div class="section-intro">
+          <h2 id="download-titulo">Pronto para decolar?</h2>
+          <p>
+            Escolha como quer usar o Órbita. Você precisa ter uma cópia própria
+            do Kerbal Space Program instalada.
+          </p>
+        </div>
+        <div class="download-list">
+          <article class="download-item recommended">
+            <div>
+              <h3>Instalador Windows</h3>
+              <p>Escolha a pasta e crie um atalho. A opção para começar.</p>
+              <small
+                >Windows x64 ·
+                <span data-size="setup">Aproximadamente 97 MiB</span></small
+              >
+            </div>
+            <a
+              class="button primary"
+              data-download="setup"
+              href="https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.7.1/Orbita-KSP-Setup-0.7.1.exe"
+              >Baixar instalador</a
+            >
+          </article>
+          <article class="download-item">
+            <div>
+              <h3>Versão portátil</h3>
+              <p>Abra o executável sem passar pelo instalador.</p>
+              <small
+                >Windows x64 ·
+                <span data-size="portable">Aproximadamente 97 MiB</span></small
+              >
+            </div>
+            <a
+              class="button"
+              data-download="portable"
+              href="https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.7.1/Orbita-KSP-Launcher-0.7.1.exe"
+              >Baixar portátil</a
+            >
+          </article>
+          <article class="download-item">
+            <div>
+              <h3>Já usa o Órbita?</h3>
+              <p>
+                Extraia o pacote e selecione <code>orbita-update.json</code> nas
+                configurações do aplicativo.
+              </p>
+              <small>Atualização local com manifesto assinado</small>
+            </div>
+            <a
+              class="button"
+              data-download="update"
+              href="https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.7.1/Orbita-KSP-Update-0.7.1.zip"
+              >Baixar atualização</a
+            >
+          </article>
+        </div>
+        <details class="hash-details">
+          <summary>Conferir a integridade dos arquivos</summary>
+          <p>
+            Compare o SHA-256 do arquivo baixado com o valor da versão
+            publicada. No PowerShell, use
+            <code>Get-FileHash .\nome-do-arquivo.exe -Algorithm SHA256</code>.
+          </p>
+          <dl id="checksums">
+            <div>
+              <dt>Hashes da versão</dt>
+              <dd>
+                <a
+                  href="https://github.com/marcelin1555/orbita-ksp-releases/releases/tag/v0.7.1"
+                  >Consultar no GitHub Releases</a
+                >
+              </dd>
+            </div>
+          </dl>
+        </details>
+        <p class="release-links">
+          Versão <span data-version>0.7.1</span> <span>·</span>
+          <a
+            href="https://github.com/marcelin1555/orbita-ksp-releases/releases/tag/v0.7.1"
+            >Notas da versão e todos os arquivos</a
+          >
+        </p>
+      </section>
+      <section class="getting-started" id="primeiros-passos">
+        <h2>Da instalação ao lançamento.</h2>
+        <ol>
+          <li>
+            <h3>Abra o Órbita e encontre o KSP</h3>
+            <p>
+              O aplicativo procura instalações da Steam e Epic Games. Você
+              também pode escolher a pasta do jogo.
+            </p>
+          </li>
+          <li>
+            <h3>Prepare os mods</h3>
+            <p>
+              Configure o CKAN pelo primeiro uso. Explore o catálogo ou importe
+              um manifesto compartilhado por um amigo.
+            </p>
+          </li>
+          <li>
+            <h3>Revise, instale e jogue</h3>
+            <p>
+              Confira as mudanças antes de confirmar. Acompanhe a operação e
+              clique em Jogar quando ela terminar.
+            </p>
+          </li>
+        </ol>
+      </section>
+      <section class="faq" id="duvidas">
+        <h2>Antes de embarcar.</h2>
+        <div>
+          <details>
+            <summary>O Órbita inclui o Kerbal Space Program?</summary>
+            <p>
+              Não. Você precisa instalar sua cópia do KSP. O launcher organiza
+              instalações locais e mods; não distribui arquivos do jogo.
+            </p>
+          </details>
+          <details>
+            <summary>Preciso copiar o jogo para importar um modpack?</summary>
+            <p>
+              Você escolhe. A importação direta usa a instância atual. Uma
+              instância isolada preserva a origem, mas ocupa espaço de outra
+              instalação. Cópias gerenciadas também podem usar compactação NTFS.
+            </p>
+          </details>
+          <details>
+            <summary>O Workshop instala mods?</summary>
+            <p>
+              O Workshop do KSP distribui naves e missões. Mods são instalados
+              pelo catálogo CKAN. Mods manuais devem seguir as instruções de
+              quem criou o pack.
+            </p>
+          </details>
+          <details>
+            <summary>O Windows pode mostrar um aviso ao abrir?</summary>
+            <p>
+              Os executáveis ainda não têm certificado comercial de assinatura
+              de código. Confira a origem do download e o SHA-256 antes de
+              decidir executar. O manifesto de atualização tem assinatura
+              Ed25519; isso é uma verificação diferente do certificado do
+              executável.
+            </p>
+          </details>
+          <details>
+            <summary>Posso recuperar uma operação interrompida?</summary>
+            <p>
+              O histórico registra a interrupção. Cópias com registro de
+              recuperação podem ser retomadas; importações pendentes podem ser
+              revisadas novamente na aba Modpack. Uma operação CKAN não é
+              repetida às cegas.
+            </p>
+          </details>
+          <details>
+            <summary>Onde relato um problema?</summary>
+            <p>
+              <a
+                href="https://github.com/marcelin1555/orbita-ksp-releases/issues"
+                >Abra uma issue no repositório de distribuição</a
+              >. Informe sua versão do Órbita, a ação que tentou executar e a
+              mensagem de erro. Revise logs para remover dados pessoais antes de
+              compartilhar.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#">Órbita</a>
+      <p>Seu universo de modpacks.</p>
+      <a href="https://github.com/marcelin1555/orbita-ksp-releases"
+        >Distribuição no GitHub</a
+      ><small
+        >Projeto independente, sem afiliação com os responsáveis por Kerbal
+        Space Program, Steam, Epic Games ou CKAN.</small
+      >
+    </footer>
+    <div id="status" role="status" hidden></div>
+  </body>
+</html>
