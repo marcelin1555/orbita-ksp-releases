@@ -2,6 +2,8 @@
 
 Site estático em português para download do Órbita KSP Launcher, hospedado na Vercel. Os executáveis ficam exclusivamente nos assets do GitHub Releases.
 
+Site público: [orbita-ksp.vercel.app](https://orbita-ksp.vercel.app/). Projeto Vercel `orbita-ksp`, equipe `cefe`.
+
 ## Arquivos
 
 - `index.html`, `style.css`, `app.js`: site sem framework e sem dependências de execução.
