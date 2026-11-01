@@ -1,23 +1,23 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "files": {
     "setup": {
-      "name": "Orbita-KSP-Setup-0.8.0.exe",
-      "bytes": 101090307,
-      "sha256": "43bf9aa1449a015fa2dec6c94317ab7d1571dc6ae164619fc9ac1499d4a36ae6",
-      "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.8.0/Orbita-KSP-Setup-0.8.0.exe"
+      "name": "Orbita-KSP-Setup-0.8.1.exe",
+      "bytes": 101091142,
+      "sha256": "7fd4efce30cc3a3e6451eb90f65e5d593135835fa33682ea26cbfc20925d90da",
+      "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.8.1/Orbita-KSP-Setup-0.8.1.exe"
     },
     "portable": {
-      "name": "Orbita-KSP-Launcher-0.8.0.exe",
-      "bytes": 100866685,
-      "sha256": "1399711001c652a71e78a1847bc5d4c328bf449731866e86406cefd5fb6ee3af",
-      "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.8.0/Orbita-KSP-Launcher-0.8.0.exe"
+      "name": "Orbita-KSP-Launcher-0.8.1.exe",
+      "bytes": 100867495,
+      "sha256": "481890ef69685ef45101238fae4ae40115cc32d0ffbd5dec797e1bec3da683af",
+      "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.8.1/Orbita-KSP-Launcher-0.8.1.exe"
     },
     "update": {
-      "name": "Orbita-KSP-Update-0.8.0.zip",
-      "bytes": 101094258,
-      "sha256": "ce659987f0cd9dbe3b6acd11be3a8ebb57d01c61ade68d8e47f2aa9698a8bd46",
-      "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.8.0/Orbita-KSP-Update-0.8.0.zip"
+      "name": "Orbita-KSP-Update-0.8.1.zip",
+      "bytes": 101093823,
+      "sha256": "3609c9ecc6bfffed6a4a65a23b715e75120ed60bd7691e01cc38f33d941c6f64",
+      "url": "https://github.com/marcelin1555/orbita-ksp-releases/releases/download/v0.8.1/Orbita-KSP-Update-0.8.1.zip"
     }
   }
 }
