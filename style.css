@@ -106,6 +106,9 @@ nav a,
   color: var(--ink);
   padding: 12px 20px;
 }
+.skip:hover {
+  color: var(--ink);
+}
 .skip:focus {
   top: 12px;
 }
@@ -175,6 +178,7 @@ nav a,
   border-color: var(--accent);
 }
 .button.primary:hover {
+  color: var(--ink);
   background: #f8c994;
 }
 .text-link {
@@ -184,7 +188,7 @@ nav a,
   padding-bottom: 4px;
 }
 .platform {
-  font-size: 11px !important;
+  font-size: 12px !important;
   margin: 18px 0 0 !important;
   color: var(--muted);
 }
@@ -222,7 +226,7 @@ nav a,
   margin: 10px 0 18px;
 }
 .flight-note small {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted);
 }
 .app-shot {
@@ -239,7 +243,7 @@ nav a,
   padding: 12px 18px;
   border-bottom: 1px solid var(--border);
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
 }
 .window-bar > span:last-child {
   margin-left: auto;
@@ -262,7 +266,7 @@ nav a,
 }
 .app-shot figcaption {
   border-top: 1px solid var(--border);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted);
   padding: 12px 18px;
 }
@@ -337,7 +341,7 @@ h3 {
 }
 .download-item small {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
 }
 .download-item .button {
   flex: none;
@@ -371,7 +375,7 @@ summary {
   overflow-wrap: anywhere;
 }
 .hash-details code {
-  font-size: 11px;
+  font-size: 12px;
   overflow-wrap: anywhere;
 }
 button {
@@ -474,7 +478,7 @@ footer > a:last-of-type {
 }
 footer small {
   flex-basis: 100%;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 #status {
@@ -539,7 +543,7 @@ footer small {
     display: none;
   }
   .nav-download {
-    font-size: 11px;
+    font-size: 12px;
   }
   .hero {
     grid-template-columns: 1fr;
@@ -572,7 +576,7 @@ footer small {
     padding: 9px 12px;
   }
   .app-shot figcaption {
-    font-size: 10px;
+    font-size: 12px;
     padding: 9px 12px;
   }
   h2 {
@@ -614,7 +618,7 @@ footer small {
     flex-direction: column;
   }
   .release-links {
-    font-size: 11px;
+    font-size: 12px;
   }
   .getting-started {
     padding: 38px 0;
@@ -637,7 +641,7 @@ footer small {
     display: none;
   }
   footer > a:last-of-type {
-    font-size: 11px;
+    font-size: 12px;
   }
   footer small {
     margin-top: 12px;
